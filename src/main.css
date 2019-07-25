@@ -1,0 +1,166 @@
+@tailwind base;
+::selection {
+  background: #aaaa0e; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #aaaa0e; /* Gecko Browsers */
+}
+body {
+  @apply font-sans;
+}
+h1 {
+  @apply text-center text-3xl font-bold font-serif;
+}
+h2 {
+  @apply text-xl font-bold font-serif;
+}
+p {
+  @apply text-lg leading-relaxed tracking-tight;
+}
+li {
+  @apply text-lg leading-relaxed tracking-tight;
+}
+
+figcaption {
+  @apply text-sm text-center mt-2 font-light;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    @apply text-4xl;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    @apply text-2xl;
+  }
+}
+
+@media (min-width: 1024px) {
+  p,
+  li {
+    @apply text-xl;
+  }
+}
+
+@media (min-width: 1024px) {
+  figcaption {
+    @apply text-lg;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.banner {
+  @apply text-center mt-12 py-4 shadow-xl;
+}
+
+.banner--black {
+  @apply text-white bg-black;
+}
+
+.banner--darksand {
+  @apply bg-darksand mt-12 py-4 shadow-xl;
+}
+
+.banner--cherryred {
+  @apply bg-cherryred mt-12 py-4 shadow-xl;
+}
+
+.banner--gray {
+  @apply bg-gray-400 mt-12 py-4 shadow-xl;
+}
+
+.banner--darkskyblue {
+  @apply bg-darkskyblue mt-12 py-4 shadow-xl;
+}
+
+.caption {
+  @apply text-sm text-center mt-2;
+}
+
+.nextproject {
+  @apply bg-gray-200 py-8 mt-12 -mb-24;
+}
+
+@media (min-width: 1024px) {
+  .caption {
+    @apply text-lg;
+  }
+}
+.card {
+  @apply rounded overflow-hidden shadow max-w-3xl border-2;
+}
+
+.pill {
+  @apply inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mt-1;
+}
+
+.pill--gray {
+  @apply bg-gray-200 text-gray-700;
+}
+
+.pill--tomato {
+  @apply bg-tomato;
+}
+
+.pill--softblue {
+  @apply bg-softblue;
+}
+
+.pill--seafoamblue {
+  @apply bg-seafoamblue;
+}
+
+.pill--offyellow {
+  @apply bg-offyellow;
+}
+
+.pill--mutedpink {
+  @apply bg-mutedpink;
+}
+
+@media (min-width: 1024px) {
+  .banner,
+  .banner--darksand,
+  .banner--cherryred,
+  .banner--gray,
+  .banner--darkskyblue {
+    @apply py-10 flex flex-col justify-center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner--darksand,
+  .banner--cherryred,
+  .banner--gray,
+  .banner--darkskyblue {
+    @apply text-left;
+  }
+}
+
+.container-inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-inner {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-inner {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-inner {
+    max-width: 800px;
+  }
+}
