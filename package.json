@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
-    "gridsome": "^0.6.6",
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "gridsome": "^0.6.7",
     "typeface-montserrat": "0.0.54",
     "typeface-roboto-slab": "0.0.72",
     "vue-cobra": "^1.0.8",
@@ -17,6 +18,6 @@
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
-    "tailwindcss": "^1.0.4"
+    "tailwindcss": "^1.0.5"
   }
 }

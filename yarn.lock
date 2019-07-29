@@ -691,6 +691,13 @@
     semver "^5.6.0"
     sort-package-json "^1.15.0"
 
+"@gridsome/plugin-google-analytics@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/plugin-google-analytics/-/plugin-google-analytics-0.1.0.tgz#f2fdffdb05dd2928ca85c4a0d64c7e497a36ee49"
+  integrity sha512-IUuIj1z0BMtNa4NPRyBP3rYGyww+RWypsHTJ7WDdIj/BuH1x7BR9cDn7kskfG5azUi1LV0lJX329Te077oG07A==
+  dependencies:
+    vue-analytics "^5.16.1"
+
 "@hjvedvik/tasks@^0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@hjvedvik/tasks/-/tasks-0.0.8.tgz#69440b92fccbe22c20c8d8788e723eac8f60aa59"
@@ -3610,10 +3617,10 @@ graphql@^14.1.1:
   dependencies:
     iterall "^1.2.2"
 
-gridsome@^0.6.6:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.6.tgz#054ce5b4f4c43624fd4885cbadd116e4b12471e2"
-  integrity sha512-6NSnOhM5wvxxSxIJt9FAOeA5IRZgx6J1V19kyfKyLxdWjlzfDwrhKFUPgROgob3N5zQfapslt3Zi21t8YS8DKg==
+gridsome@^0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.7.tgz#f86232e18426acda78b97b552cccdf310240a765"
+  integrity sha512-0BuCq2YF2edRfkhI4phsBywB2XX9P5yMfbNy4nStNKU6187UsvnQO/aYjSl1m1rxoBSAFvvOBTuo0VXXKpf4Qw==
   dependencies:
     "@babel/core" "^7.0.0"
     "@gridsome/cli" "^0.2.1"
@@ -7399,10 +7406,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tailwindcss@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.4.tgz#98f186c8142bfb292bcbfcb53b84df369f11ef91"
-  integrity sha512-+1NNPW+U83k6DV/uUOnsfmX86Cfb8N87fiuN0cX0mEi2sZUpglLzZqlXtP8FD9Hlne5H1UhlS8tajz+F9SSxjA==
+tailwindcss@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.5.tgz#5145fd61f251be06a77748819e12fb126914095d"
+  integrity sha512-e5edrSKqNOvWAVEutXN5czeJSXjQQxO7zNN4RDd5vQF/JTxnKdndcMFIC6p6YkRvcGFKPCZ/0rY1zZvPeq9V4A==
   dependencies:
     autoprefixer "^9.4.5"
     bytes "^3.0.0"
@@ -7914,6 +7921,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.16.1:
+  version "5.17.0"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.17.0.tgz#c9530b82b9b4acd111c9cba7d249adf4089746b3"
+  integrity sha512-1Cn/v06cGjmGDfRlG2hc0RF0sc2rNC88shOeLGNIlllSFv5GDZ9kLXGTPB9z9I+WyvFewyUONPIdQnpOls6h6w==
 
 vue-cobra@^1.0.8:
   version "1.0.8"

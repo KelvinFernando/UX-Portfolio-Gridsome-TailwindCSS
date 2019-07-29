@@ -13,7 +13,14 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss());
 
 module.exports = {
   siteName: 'Ux Portfolio',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-129349017-2'
+      }
+    }
+  ],
   css: {
     loaderOptions: {
       postcss: {
