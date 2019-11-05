@@ -361,14 +361,9 @@ These people are all members of the design team. Penelope is a senior designer, 
         </section>
         <!-- CREDITS -->
         <section>
-          <section-credits
-            body="Sarah Doody
+          <section-credits body="Sarah Doody
 UX Portfolio research and tips
-
-Nicole Dominique Dalida
-Proofreading
-"
-          />
+" />
           <div class="italic mt-24 text-center">Thank you for visiting my project!</div>
         </section>
       </article>

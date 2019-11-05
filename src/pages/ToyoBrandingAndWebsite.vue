@@ -267,48 +267,6 @@ Toyo grill- The red circle at the center is taken straight from the Japanese fla
           </div>
         </section>
 
-        <!-- CLIENT RED FLAG-->
-        <section>
-          <secondary-banner
-            class="banner--cherryred"
-            title="Client red flag"
-            body="A bad client fit for a mere busboy"
-          />
-          <div class="container-inner mx-auto">
-            <div class="mt-12">
-              <p>I learned a lot on this project as it was my first attempt on designing and developing for a real-world project. The client/owner was someone who didn’t see the value design but I ignored the obvious sign. After all, this was my first client and took it as a challenge. I also became close with my colleagues especially the chefs who would give me take outs because they knew I can’t cook. I just wanted to return the favor by potentially improving their branding and website for free.</p>
-            </div>
-          </div>
-          <div class="container">
-            <figure class="mt-10">
-              <g-image
-                src="https://res.cloudinary.com/kelvinfernando/image/upload/f_auto,q_auto:best/v1561704209/Ux%20portfolio/Toyo-branding-and-website/Chef%20and%20food.png"
-                alt="Chef cooking meal"
-                class="mx-auto lg:w-1/2"
-              ></g-image>
-              <figcaption
-                class="container-inner mx-auto"
-              >Our head chef cooking staff meal. I usually get more because they knew I go to the gym and don’t have food at home</figcaption>
-            </figure>
-            <figure class="mt-8">
-              <g-image
-                src="https://res.cloudinary.com/kelvinfernando/image/upload/f_auto,q_auto:best/v1562636220/Ux%20portfolio/Toyo-branding-and-website/Google%20maps%20review.png"
-                alt="Google map 1 star review from Kimberly Bruce"
-                class="mx-auto lg:w-1/2"
-              ></g-image>
-              <figcaption
-                class="container-inner mx-auto"
-              >A bad website will deter potential costumers and leave them unhappy. Taken from Google Maps Review.</figcaption>
-            </figure>
-          </div>
-
-          <div class="container-inner mx-auto">
-            <div class="mt-8">
-              <p>I told myself that this project would serve as a parting gift and a sign for me to quit serving tables. Unfortunately, the owner was not happy about it and the project was canceled. I quit working at the restaurant with a lot of knowledgable experience, friends, and more importantly, good food in my belly.</p>
-            </div>
-          </div>
-        </section>
-
         <!-- CREDITS-->
         <section>
           <section-credits
@@ -326,16 +284,16 @@ Veutify support
         </section>
 
         <!-- NEXT PROJECT -->
-          <div class="nextproject">
-        <div class="container">
-          <h2 class="text-center mb-5">More Projects</h2>
-          <div class="flex flex-col items-center">
-            <proj-card-companion  />  
-                <proj-card-portfolio class="mt-5"/>
-                <proj-card-kodoo class="mt-5" />   
+        <div class="nextproject">
+          <div class="container">
+            <h2 class="text-center mb-5">More Projects</h2>
+            <div class="flex flex-col items-center">
+              <proj-card-companion />
+              <proj-card-portfolio class="mt-5" />
+              <proj-card-kodoo class="mt-5" />
+            </div>
           </div>
         </div>
-      </div>        
       </article>
     </main>
   </Project>

@@ -1,7 +1,7 @@
 export default {
-  "siteUrl": "",
-  "siteName": "Ux Portfolio",
+  "trailingSlash": true,
+  "pathPrefix": "",
   "titleTemplate": "%s - Ux Portfolio",
-  "siteDescription": "",
-  "version": "0.6.7"
+  "siteUrl": "",
+  "version": "0.7.9"
 }
